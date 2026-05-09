@@ -23,5 +23,6 @@ public class BMICalculator {
         } else {
             System.out.println("Catergory : Obese");
         }
+        sc.close();
     }
 }

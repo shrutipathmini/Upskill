@@ -25,5 +25,6 @@ public class TemperatureConverter {
             result = (temperature * 9/5) + 32;
             System.out.println("Converted to Farenheit = "+result);
         }
+        sc.close();
     }
 }

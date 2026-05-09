@@ -21,5 +21,6 @@ public class TipSplitter {
         double splitAmt = totalBill / people;
 
         System.out.println("Total split amount per person = "+splitAmt);
+        sc.close();
     }
 }
